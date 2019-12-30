@@ -1,11 +1,11 @@
 <img src="../assets/images/mini_logo_white.png" class="sidebar-toggle-picture" alt="Side Bar Toggle"
- (click)="sidebarClick()" *ngIf="!sidebar_expanded">
+(click)="sidebarClick()" *ngIf="!sidebar_expanded">
 
-<div id="expanded-sidebar" *ngIf="sidebar_expanded">
+<div id="expanded-sidebar" *ngIf="sidebar_expanded"  [style.background-color]="background_colour">
 
-    <img src="../assets/images/mini_logo.png" class="sidebar-toggle-picture" id="sidebar-logo-picture" alt="Side Bar Toggle">
+    <img src="../assets/images/mini_logo_white.png" class="sidebar-toggle-picture" id="sidebar-logo-picture" alt="Side Bar Toggle">
 
-    <i class="fas fa-times" id="close-sidebar" (click)="sidebarClick()"></i>
+    <i class="fas fa-times" style="color:white" id="close-sidebar" (click)="sidebarClick()"></i>
     
         <div class="container" id="sidebar-text-container">
             <ul class="remove-padding">
