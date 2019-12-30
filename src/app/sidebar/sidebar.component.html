@@ -1,1 +1,18 @@
-<img src="../assets/images/mini_logo.png" id="sidebar-toggle-picture" alt="Side Bar Toggle">
+<img src="../assets/images/mini_logo.png" class="sidebar-toggle-picture" alt="Side Bar Toggle"
+ (click)="sidebarClick()" *ngIf="!sidebar_expanded">
+
+<div id="expanded-sidebar" *ngIf="sidebar_expanded">
+
+    <img src="../assets/images/mini_logo.png" class="sidebar-toggle-picture" id="sidebar-logo-picture" alt="Side Bar Toggle">
+
+    <i class="fas fa-times" id="close-sidebar" (click)="sidebarClick()"></i>
+    
+        <div class="container" id="sidebar-text-container">
+            <ul class="remove-padding">
+                <li class="sidebar-text text-center">ABOUT</li>
+                <li class="sidebar-text text-center">SHOP</li>
+                <li class="sidebar-text text-center">CONTACT</li>
+            </ul>
+        </div>
+
+</div>

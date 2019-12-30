@@ -1,3 +1,48 @@
-#sidebar-toggle-picture {
+.sidebar-toggle-picture {
     width: 60px;
+}
+
+#expanded-sidebar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+    cursor: default;
+}
+
+#close-sidebar {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+#sidebar-logo-picture {
+    display: flex;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.sidebar-text {
+    margin: 30px 0px;
+    list-style-type: none;
+
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li.sidebar-text:hover {
+    text-decoration: underline;
 }

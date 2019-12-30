@@ -1,7 +1,7 @@
 <div id="background-container">
 
-    <div id="sidebar-toggle">
-        <sidebar-navigation></sidebar-navigation>
+    <div id="sidebar-toggle" [style.top.px]="sidebar_top_css" [style.left.px]="sidebar_left_css">
+        <sidebar-navigation (sidebar_state_change)="sidebarStateChange($event)"></sidebar-navigation>
     </div>
 
     <div id="homepage-intro">
