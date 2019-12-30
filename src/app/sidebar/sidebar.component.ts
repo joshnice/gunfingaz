@@ -21,6 +21,5 @@ export class SideBarNavigation {
 
     private checkBackgroundColour() {
       this.sidebar_expanded ? this.background_colour = 'black' : this.background_colour = 'transparent';
-      console.log('background colour', this.background_colour);
     }
 }
