@@ -3,6 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { Index } from './index/index.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatGridListModule } from '@angular/material';
+
+
+
+
 import { SideBarNavigation } from './sidebar/sidebar.component';
 import { ArticlePortal } from './article-portal/article-portal.component'
 
@@ -14,7 +21,9 @@ import { ArticlePortal } from './article-portal/article-portal.component'
     ArticlePortal
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatGridListModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,9 +3,9 @@
 
 <div id="expanded-sidebar" *ngIf="sidebar_expanded"  [style.background-color]="background_colour">
 
-    <img src="../assets/images/mini_logo_white.png" class="sidebar-toggle-picture" id="sidebar-logo-picture" alt="Side Bar Toggle">
+    <span id="close-sidebar" (click)="sidebarClick()">x</span>
 
-    <i class="fas fa-times" id="close-sidebar" (click)="sidebarClick()"></i>
+    <img src="../assets/images/mini_logo_white.png" class="sidebar-toggle-picture" id="sidebar-logo-picture" alt="Side Bar Toggle">
     
         <div class="container" id="sidebar-text-container">
             <ul class="remove-padding">

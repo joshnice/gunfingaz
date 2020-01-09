@@ -16,10 +16,10 @@
 #close-sidebar {
     position: absolute;
     top: 5px;
-    right: 5px;
+    right: 10px;
     cursor: pointer;
-    width: 10px;
-    height: 10px;
+    font-size: 18px;
+    font-weight: 600;
     color: white;
 }
 

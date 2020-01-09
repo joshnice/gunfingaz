@@ -15,7 +15,7 @@ export class Index {
       video_length: '22:11',
       date: '11 January 2001',
       image_path: 'image path'
-  }, {}, {},{}];
+  },{},{},{}];
 
   // we could have an object with name, date, video length and also image path
   // use an ngfor loop to create the articles inputting the details to the component using inputs

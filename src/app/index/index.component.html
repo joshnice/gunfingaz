@@ -9,17 +9,24 @@
 
         <div id="homepage-text">
         <img src="../assets/images/logo.PNG" id="intro-logo" alt="GUNFINGAZ logo">
-        <img src="../assets/images/moto.png" id="intro-moto" alt="GUNFINGAZ moto">
+        <img src="../assets/images/moto.PNG" id="intro-moto" alt="GUNFINGAZ moto">
 
         </div>
     </div>
 
     <div id="content-container">
 
+        <mat-grid-list cols = "2" rowHeight = "200px" colHieg>
+            <mat-grid-tile *ngFor="let article of articles" [colspan] = "1" [rowspan] = "1"></mat-grid-tile>
+        </mat-grid-list>
+
+    </div>
+    <!-- <div id="content-container">
+
         <div *ngFor="let article of articles">
             <article-portal [content]="article" id=""></article-portal>
         </div>
     
-    </div>
+    </div> -->
 
 </div>
