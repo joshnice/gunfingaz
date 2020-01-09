@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ArticlePortalDetails } from '../interfaces';
 
+
 @Component({
   selector: 'index-page',
   templateUrl: './index.component.html',

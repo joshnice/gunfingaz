@@ -1,7 +1,7 @@
 <img src="../assets/images/mini_logo_white.png" class="sidebar-toggle-picture" alt="Side Bar Toggle"
 (click)="sidebarClick()" *ngIf="!sidebar_expanded">
 
-<div id="expanded-sidebar" *ngIf="sidebar_expanded"  [style.background-color]="background_colour">
+<div id="expanded-sidebar" *ngIf="sidebar_expanded"  [style.background-color]="background_colour" [@openClose]="isOpen ? 'closed' : 'open'">
 
     <span id="close-sidebar" (click)="sidebarClick()">x</span>
 

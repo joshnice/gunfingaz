@@ -16,7 +16,6 @@ export class ArticlePortal implements AfterViewInit {
     }
 
     setContent() {
-        console.log('set content has been called', this.content);
     }
 
 }

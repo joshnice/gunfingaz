@@ -16,8 +16,10 @@
 
     <div id="content-container">
 
-        <mat-grid-list cols = "2" rowHeight = "200px" colHieg>
-            <mat-grid-tile *ngFor="let article of articles" [colspan] = "1" [rowspan] = "1"></mat-grid-tile>
+        <mat-grid-list cols = "2" rowHeight = "400px" colHieg>
+            <mat-grid-tile *ngFor="let article of articles" [colspan] = "1" [rowspan] = "1">
+                <article-portal [content]="article"></article-portal>
+            </mat-grid-tile>
         </mat-grid-list>
 
     </div>

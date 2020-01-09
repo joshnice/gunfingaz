@@ -1,3 +1,9 @@
 #article-container {
-    border: pink 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#article-image{
+    width: 300px;
 }
