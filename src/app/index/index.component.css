@@ -45,10 +45,11 @@
     align-self: center;
 }
 
-article-portal{
+article-portal {
     width: 100%;
+    flex-basis: 50%;
 }
 
 #content-container > article-portal {
-    flex: 0 50%;
+  flex-basis: ;
 }
