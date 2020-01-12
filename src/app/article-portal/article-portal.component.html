@@ -1,6 +1,9 @@
 <div id="article-container">
-    <img src="../assets/images/placeholder.png" alt="Article Image" id="article-image">
-    <span id="title">{{content.name}}</span>
-    <span id="info">{{content.description}}</span>
-    <span id="date">{{content.date}}</span>
+    <img [src]=content.image_path alt="Article Image" id="article-image">
+
+    <div id="text-container">
+        <span id="date" class="text">{{content.date}}</span>
+        <span id="title" class="text">{{content.name}}</span>
+        <span id="info" class="text">{{content.description}}</span>
+    </div>
 </div>

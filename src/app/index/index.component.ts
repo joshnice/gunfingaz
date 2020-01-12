@@ -11,12 +11,33 @@ import { ArticlePortalDetails } from '../interfaces';
 export class Index {
 
   public articles: ArticlePortalDetails[] = [{
-      name: 'test video',
-      description: 'test description',
-      video_length: '22:11',
-      date: '11 January 2001',
-      image_path: 'image path'
-  },{},{},{}];
+      name: 'GUNFINGAZ EPISODE 14 - LOCAL GEEZERS',
+      description: "Derby's free and freshest sounding group Local Geezers come through to the dojo",
+      video_length: '1:11:01',
+      date: '24 March 2019',
+      image_path: '../../assets/images/LOCAL_GEEZERS.png'
+  },
+  {
+    name: 'GUNFINGAZ EPISODE 14 - LOCAL GEEZERS',
+    description: "Derby's free and freshest sounding group Local Geezers come through to the dojo",
+    video_length: '1:11:01',
+    date: '24 March 2019',
+    image_path: '../../assets/images/LOCAL_GEEZERS.png'
+},
+{
+  name: 'GUNFINGAZ EPISODE 14 - LOCAL GEEZERS',
+  description: "Derby's free and freshest sounding group Local Geezers come through to the dojo",
+  video_length: '1:11:01',
+  date: '24 March 2019',
+  image_path: '../../assets/images/LOCAL_GEEZERS.png'
+},
+{
+  name: 'GUNFINGAZ EPISODE 14 - LOCAL GEEZERS',
+  description: "Derby's free and freshest sounding group Local Geezers come through to the dojo",
+  video_length: '1:11:01',
+  date: '24 March 2019',
+  image_path: '../../assets/images/LOCAL_GEEZERS.png'
+}];
 
   // we could have an object with name, date, video length and also image path
   // use an ngfor loop to create the articles inputting the details to the component using inputs

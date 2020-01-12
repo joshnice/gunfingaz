@@ -18,7 +18,7 @@
 #homepage-text {
     position: absolute;
     bottom: 60px;
-    left: 16px;
+    left: 100px;
     width: 20px;
 }
 
@@ -39,11 +39,7 @@
 }
 
 #content-container {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-mat-grid-tile {
-    background: lightblue;
- }

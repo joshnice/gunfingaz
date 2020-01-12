@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Progesterone;
+    src: url("./Progesterone.otf") format("opentype");
+}
+
+.text {
+    font-family: Progesterone;
+}

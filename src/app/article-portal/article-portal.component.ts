@@ -4,7 +4,7 @@ import { ArticlePortalDetails } from '../interfaces';
 @Component({
   selector: 'article-portal',
   templateUrl: './article-portal.component.html',
-  styleUrls: ['./article-portal.component.css']
+  styleUrls: ['./article-portal.component.css', '../../assets/fonts/fonts.css']
 })
 
 export class ArticlePortal implements AfterViewInit {
